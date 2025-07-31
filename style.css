@@ -1,0 +1,190 @@
+.botao-bloco1,
+.botao-bloco2,
+.botao-bloco3,
+.botao-bloco4,
+.botao-bloco5,
+.botao-bloco6,
+.botao-bloco7,
+.botao-bloco8,
+.botao-bloco9,
+.botao-bloco10,
+.botao-bloco11,
+.botao-bloco12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.botao-bloco1:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.botao-bloco2:hover {
+  background-color: #0a4a12;
+  color: #ffffff;
+}
+
+.botao-bloco3:hover {
+  background-color: #800000;
+  color: #000000;
+}
+
+.botao-bloco4:hover {
+  background-color: #219a2f;
+  color: #ed0505;
+}
+
+.botao-bloco5:hover {
+  background-color: #2ea3c3;
+  color: #ff0000;
+}
+
+.botao-bloco6:hover {
+  background-color: #c20303;
+  color: #ffffff;
+}
+.botao-bloco7:hover {
+  background-color: #2e7eef;
+  color: #000000;
+}
+
+.botao-bloco8:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.botao-bloco9:hover {
+  background-color: #a91818;
+  color: #ffffff;
+}
+
+.botao-bloco10:hover {
+  background-color: #fbff00;
+  color: #ff0000;
+}
+
+.botao-bloco11:hover {
+  background-color: #6e6b6b;
+  color: #000000;
+}
+
+.botao-bloco12:hover {
+  background-color: #0300bb;
+  color: #ffffff;
+}
+
+.secreto {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.logo {
+  width: 40px;
+  height: 45px;
+}
+
+.logomaior {
+  width: 50px;
+  height: 50px;
+}
+
+/* Mostrar o conteúdo secreto com fade */
+.botao-bloco1:hover .secreto,
+.botao-bloco2:hover .secreto,
+.botao-bloco3:hover .secreto,
+.botao-bloco4:hover .secreto,
+.botao-bloco5:hover .secreto,
+.botao-bloco6:hover .secreto,
+.botao-bloco7:hover .secreto,
+.botao-bloco8:hover .secreto,
+.botao-bloco9:hover .secreto,
+.botao-bloco10:hover .secreto,
+.botao-bloco11:hover .secreto,
+.botao-bloco12:hover .secreto {
+  opacity: 1;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4a5f4c;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.titulo-com-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.logo-titulo {
+  width: 60px;
+  height: auto;
+  filter: brightness(0) invert(1); /* logo branco */
+  margin-top: 5px; /* ↓ desce 5 pixels */
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.4s;
+}
+
+.cor1 {
+  filter: brightness(0) invert(1); /* deixa o logo branco */
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
