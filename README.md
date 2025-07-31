@@ -19,10 +19,10 @@
 
 ## 🖼️ Preview
 Você pode acessar o Site aqui:  
-🔗 [Escolher Time](https://antunesdvz.github.io/escolher-time/)
+🔗 [Escolha seu Time](https://antunesdvz.github.io/escolher-time/)
 
 ## 🚀 Como usar
 ```bash
-Clone o repositório git clone https://github.com/antunesdvz/popcine-site
-Acesse a pasta do projeto cd popcine-site
+Clone o repositório git https://github.com/antunesdvz/escolher-time
+Acesse a pasta do projeto cd escolher-time
 Abra o arquivo index.html no navegador
