@@ -19,7 +19,7 @@
 
 ## 🖼️ Preview
 Você pode acessar o Site aqui:  
-🔗 [PopCine](https://antunesdvz.github.io/popcine-site/)
+🔗 [Escolher Time](https://antunesdvz.github.io/escolher-time/)
 
 ## 🚀 Como usar
 ```bash
